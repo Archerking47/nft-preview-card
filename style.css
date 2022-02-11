@@ -1,0 +1,173 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 30%;
+    height: auto;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+
+    box-shadow: 0 50px 0 15px rgba(0, 0, 0, 0.05),
+                0 0 0 50px rgba(0, 0, 0, 0.03);
+}
+
+.img-box {
+    position: relative;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-img {
+    width: 100%;
+    opacity: 1;
+}
+
+.view-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.img-box:hover .main-img {
+    opacity: 0.5;
+}
+
+.img-box:hover .view-icon {
+    opacity: 1;
+}
+
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 2.2rem;
+    transition: all 0.3s;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.description {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px hsl(215, 32%, 27%);
+}
+
+.box {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+
+.value {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.days {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.creator figure {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.avatar {
+    width: 32px;
+    border: solid 1px hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.creator figcaption {
+    font-size: 1.6rem;
+}
+
+.author {
+    color: hsl(0, 0%, 100%);
+    transition: all 0.3s;
+}
+
+.author:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+     font-size: 11px; 
+     text-align: center;
+    }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
